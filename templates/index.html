@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flasky</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Customização do estilo da barra de navegação */
+        .navbar-custom {
+            background-color: #333;
+            color: white;
+        }
+        .navbar-custom a.nav-link {
+            color: white;
+            font-size: 1.1rem;
+        }
+        .navbar-custom a.nav-link:hover {
+            color: #ccc;
+        }
+        .navbar-custom .navbar-brand {
+            font-weight: bold;
+            color: white;
+            font-size: 1.2rem;
+        }
+        .navbar-custom .active > .nav-link {
+            color: #fff !important;
+        }
+        /* Alinhando os itens à esquerda */
+        .navbar-nav {
+            margin-left: 0;
+        }
+
+        /* Estilo da seção de conteúdo */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .container {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="/">Avaliação contínua: Aula 040</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/identificacao/Ana Moraes/PT3026078/IFSP">Identificação</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contextorequisicao/Ana Moraes">Contexto da requisição</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Conteúdo principal -->
+<!doctype html>
+    <html lang="pt-BR">
+   <body>
+    <h1>Dados da última atualização:</h1>
+     <hr>
+    <p>A data e hora local é {{ current_time }}.</p>
+    <p>Isso foi há segundos atras.</p>
+  </body>
+      </body>
+    </html>
